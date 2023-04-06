@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-05T02:16:46.425Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="a5t06_-yEhDS8bGkUulj" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-06T01:31:22.658Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="NcShePFLlKVMKtUvMBrS" version="21.1.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="3435" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -801,6 +801,9 @@
         </mxCell>
         <mxCell id="iczdhoL5Rpn0Yi2AzovQ-39" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;- body&lt;br&gt;- param&lt;br&gt;- query&lt;br&gt;- dto&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-1720" y="360" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iczdhoL5Rpn0Yi2AzovQ-40" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;dto 정의 -&amp;gt; dto.ts&lt;br&gt;command 정의 -&amp;gt; *.command.ts&lt;br&gt;info 정의 -&amp;gt; domain-type.d&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1780" y="760" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
