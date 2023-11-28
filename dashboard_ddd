@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-27T06:05:00.485Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="iD8HlbODI9xkstBAjkdr" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-28T05:56:47.895Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="YPyHMHps0pWJYpyVhY-X" version="22.1.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="4209" dy="3293" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4284" dy="3335" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1079,7 +1079,7 @@
           <mxGeometry x="-601.5" y="139" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wJ_yxyFz-HO3iCObMyMk-79" value="&lt;font style=&quot;&quot; color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;빨간글씨는 &quot;이벤트 트리거&quot;&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;rotation=0;direction=east;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-930" y="-430" width="140" height="30" as="geometry" />
+          <mxGeometry x="-1132" y="-310" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ilgTAGPZ1gDjLb_zZb0V-2" value="대출신청&lt;br&gt;접수" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-999.75" y="-199" width="59.5" height="30" as="geometry" />
