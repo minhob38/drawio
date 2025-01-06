@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-08-29T02:25:53.368Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="5BJY07X-hWNIO9lDiSPD" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="페이지-1" id="pZyoLkYU4llX_7tRVOSn">
-    <mxGraphModel dx="3059" dy="1048" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2501" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="wUL2A9BySkg_ptCFgsjO-2" value="Evergreen Server" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="360" width="600" height="40" as="geometry" />
+          <mxGeometry x="240" y="480" width="600" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wUL2A9BySkg_ptCFgsjO-3" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -21,18 +21,18 @@
         </mxCell>
         <mxCell id="wUL2A9BySkg_ptCFgsjO-9" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#0000FF;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="979.5" y="510" as="sourcePoint" />
+            <mxPoint x="980" y="620" as="sourcePoint" />
             <mxPoint x="980" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wUL2A9BySkg_ptCFgsjO-10" value="Database" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="460" width="600" height="40" as="geometry" />
+          <mxGeometry x="240" y="580" width="600" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wUL2A9BySkg_ptCFgsjO-11" value="TESLA Worker" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry y="260" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wUL2A9BySkg_ptCFgsjO-12" value="S3" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry y="520" width="1080" height="40" as="geometry" />
+          <mxGeometry y="640" width="1080" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wUL2A9BySkg_ptCFgsjO-13" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -49,29 +49,29 @@
         <mxCell id="wUL2A9BySkg_ptCFgsjO-17" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="99.5" y="310" as="sourcePoint" />
-            <mxPoint x="100" y="510" as="targetPoint" />
+            <mxPoint x="100" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wUL2A9BySkg_ptCFgsjO-18" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="380" y="210" as="sourcePoint" />
-            <mxPoint x="380.5" y="350" as="targetPoint" />
+            <mxPoint x="380" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wUL2A9BySkg_ptCFgsjO-20" value="" style="endArrow=classic;html=1;rounded=0;endFill=1;startArrow=classic;startFill=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="539.5" y="410" as="sourcePoint" />
-            <mxPoint x="539.5" y="450" as="targetPoint" />
+            <mxPoint x="539.5" y="530" as="sourcePoint" />
+            <mxPoint x="539.5" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wUL2A9BySkg_ptCFgsjO-21" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#0000FF;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="680" y="350" as="sourcePoint" />
+            <mxPoint x="680" y="460" as="sourcePoint" />
             <mxPoint x="679.5" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wUL2A9BySkg_ptCFgsjO-23" value="- Evergreen에서 모든 migration을 제어해야되기 때문에, migration 시작 이벤트와 종료 이벤트를 migration에서 처리해야함&lt;br&gt;&lt;br&gt;- TESLA에서 Evergreen Server를 호출할때, DB 정보를 주면 좋지만 성능문제 및 용량때문에 Background에서 작업" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="740" y="610" width="360" height="30" as="geometry" />
+          <mxGeometry x="740" y="730" width="360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wUL2A9BySkg_ptCFgsjO-24" value="TESLA Worker" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="880" y="260" width="200" height="40" as="geometry" />
@@ -87,7 +87,7 @@
         </mxCell>
         <mxCell id="wUL2A9BySkg_ptCFgsjO-28" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="340.5" y="350" as="sourcePoint" />
+            <mxPoint x="340" y="460" as="sourcePoint" />
             <mxPoint x="340" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -457,17 +457,23 @@
             <mxPoint x="937" y="2049.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ATzgLitDx3WO8czNtzta-1" value="SQS (FIFO)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ATzgLitDx3WO8czNtzta-1" value="SQS (FIFO)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1082" y="1720" width="159" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="ATzgLitDx3WO8czNtzta-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="ATzgLitDx3WO8czNtzta-2" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1160" y="1905" as="sourcePoint" />
             <mxPoint x="1160" y="1951" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ATzgLitDx3WO8czNtzta-3" value="&lt;b&gt;(10)&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ATzgLitDx3WO8czNtzta-3" value="&lt;b&gt;(10)&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1160" y="1905.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L7kRpwcGnkX0BPOHVh83-1" value="API Invoke" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="380" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L7kRpwcGnkX0BPOHVh83-2" value="API Invoke" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="370" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
